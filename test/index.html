@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buku Foto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="photo-book">
+            <img id="photo" src="images/image1.jpg" alt="Foto" />
+        </div>
+        <div class="navigation">
+            <button id="prev" onclick="changePhoto(-1)">Sebelumnya</button>
+            <button id="next" onclick="changePhoto(1)">Selanjutnya</button>
+        </div>
+        <div class="page-number">
+            <span id="pageNum">1 / 12</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
